@@ -1,0 +1,66 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+/* Navbar */
+.custom-nav-data {
+    padding-right: 12vw;
+}
+
+/* Slider */
+.slide-1 {
+    background: url(images/cover/cover-1.png) no-repeat;
+    background-size: relative;
+    background-position: top;
+}
+
+.slide-2 {
+    background: url(images/cover/cover-2.jpg) no-repeat;
+    background-size: relative;
+    background-position: top;
+}
+
+.slide-3 {
+    background: url(images/cover/cover-3.jpg) no-repeat;
+    background-size: relative;
+    background-position: top;
+}
+
+.mask-slide {
+    height: 69vh;
+    position: relative;
+    z-index: 1;
+}
+
+.mask-slide::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    opacity: 90%;
+    background: #34373fde;
+    z-index: -1;
+}
+
+/* Tab-Screen */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .custom-nav {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 1vw;
+    }
+}
+
+/* Mobile-Screen */
+@media only screen and (max-width:767px) {
+
+    .custom-nav {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .custom-button {
+        visibility: hidden;
+    }
+
+}
