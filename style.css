@@ -49,6 +49,10 @@
         flex-direction: row-reverse;
         gap: 1vw;
     }
+
+    .custom-working img {
+        height: 720px;
+    }
 }
 
 /* Mobile-Screen */
