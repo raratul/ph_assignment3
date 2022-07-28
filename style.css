@@ -42,6 +42,11 @@
     z-index: -1;
 }
 
+/* Student-Section */
+.custom-student img {
+    width: 100% !important;
+}
+
 /* Tab-Screen */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .custom-nav {
