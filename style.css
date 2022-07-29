@@ -58,6 +58,10 @@
     .custom-working img {
         height: 720px;
     }
+
+    .custom-buttcon-2 {
+        visibility: hidden;
+    }
 }
 
 /* Mobile-Screen */
@@ -70,6 +74,15 @@
 
     .custom-button {
         visibility: hidden;
+    }
+
+    .custom-student {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .custom-text {
+        text-align: center;
     }
 
 }
